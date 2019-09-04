@@ -29,8 +29,8 @@ $dictionary = array(
     "hello" => "xin chào",
     "how" => "thế nào",
     "book" => "quyển vở",
-    "computer" => "máy tính");
-
+    "computer" => "máy tính",
+    "bye" => "tạm biệt ");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $searchWord = $_POST["search"];
     $flag = 0;
